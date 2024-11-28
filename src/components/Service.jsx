@@ -27,18 +27,18 @@ const services = [
       description: "Combining both frontend and backend development skills.",
       more: "Our expertise bridges the gap between the frontend and backend, delivering cohesive applications.",
     },
-    {
-      id: 5,
-      title: "Content Writing",
-      description: "Writing content for your business and companies.",
-      more: "We provide SEO-friendly and compelling content to boost your business presence online.",
-    },
-    {
-      id: 6,
-      title: "Digital Marketing",
-      description: "Promote your business with our digital marketing team.",
-      more: "Our marketing strategies are data-driven, ensuring measurable growth and engagement.",
-    },
+    // {
+    //   id: 5,
+    //   title: "Content Writing",
+    //   description: "Writing content for your business and companies.",
+    //   more: "We provide SEO-friendly and compelling content to boost your business presence online.",
+    // },
+    // {
+    //   id: 6,
+    //   title: "Digital Marketing",
+    //   description: "Promote your business with our digital marketing team.",
+    //   more: "Our marketing strategies are data-driven, ensuring measurable growth and engagement.",
+    // },
   ];
   const Service = () => {
     const [expandedService, setExpandedService]=useState(null);
