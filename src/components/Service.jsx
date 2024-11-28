@@ -54,7 +54,7 @@ const services = [
             {services.map((service) => (
               <div
                 key={service.id}
-                className="bg-gray-800 px-6 pb-6 rounded-lg hover:shadow-lg transform 
+                className="bg-gray-800 px-6 pb-6 rounded-lg hover:shadow-lg p-2 transform 
                 transition-transform duration-300 hover:scale-105"
               >
                 <div

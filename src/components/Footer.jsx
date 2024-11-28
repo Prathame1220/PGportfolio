@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row md:space-x-12 items-center mb-6">
           {/* About Section */}
           <div className="flex-1 mb-6 md:mb-0 text-center md:text-left">
-            <h3 className="text-2xl font-bold mb-2">Prathamesh</h3>
+            <h3 className="text-2xl font-bold mb-2">Prathamesh Gaikwad</h3>
             <p className="text-gray-400">
               Full-Stack Developer based in India, specializing in web and
               software development.
