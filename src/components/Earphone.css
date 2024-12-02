@@ -1,0 +1,40 @@
+.app__earphone {
+    position: fixed;
+    right: 0.5rem;
+    bottom: 0.75rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .app__earphone-img {
+    background: linear-gradient(to left, #db0d6d, #7b7ffe); /* Gradient from right to left */
+    border-radius: 10px;
+    width: 34px;
+    height: 34px;
+  }
+  
+  .app__earphone-span {
+    
+    opacity: 0;
+    transition: all 1000ms ease;
+    transform: translateY(20px);
+  }
+  
+  .app__earphone-span_show {
+    transition: all 1000ms ease;
+  }
+  
+  .app__earphone-span_show:hover {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .app__earphone-audio {
+    display: none;
+    opacity: 0;
+  }
+  
