@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/Pgportfolio/static/css/main.dbfd75dc.css",
-    "main.js": "/Pgportfolio/static/js/main.d43bd063.js",
+    "main.css": "/Pgportfolio/static/css/main.afcaaeda.css",
+    "main.js": "/Pgportfolio/static/js/main.4b150fc0.js",
+    "static/media/piano.mp3": "/Pgportfolio/static/media/piano.e351083da673af2c84d7.mp3",
     "static/media/icon.jpg": "/Pgportfolio/static/media/icon.c897b35753a580714836.jpg",
     "static/media/Pratham.jpg": "/Pgportfolio/static/media/Pratham.0f5c3cfe54d850fe65cf.jpg",
     "static/media/ios-weather-app.png": "/Pgportfolio/static/media/ios-weather-app.4ed71cfbfe490147d74c.png",
     "static/media/paying-guest-accommodation-php-script-home-1024x585.webp": "/Pgportfolio/static/media/paying-guest-accommodation-php-script-home-1024x585.ddb36e027184b978f43e.webp",
+    "static/media/earphoneOff.svg": "/Pgportfolio/static/media/earphoneOff.38966d35d064272014b46286294e9b5b.svg",
+    "static/media/earphoneOn.svg": "/Pgportfolio/static/media/earphoneOn.6dd07a33c09101aba5950bdd621ea39f.svg",
     "index.html": "/Pgportfolio/index.html",
-    "main.dbfd75dc.css.map": "/Pgportfolio/static/css/main.dbfd75dc.css.map",
-    "main.d43bd063.js.map": "/Pgportfolio/static/js/main.d43bd063.js.map"
+    "main.afcaaeda.css.map": "/Pgportfolio/static/css/main.afcaaeda.css.map",
+    "main.4b150fc0.js.map": "/Pgportfolio/static/js/main.4b150fc0.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbfd75dc.css",
-    "static/js/main.d43bd063.js"
+    "static/css/main.afcaaeda.css",
+    "static/js/main.4b150fc0.js"
   ]
 }
