@@ -5,37 +5,41 @@ import EarphoneOn from "../assets/earphoneOn.svg";
 import "./Earphone.css";
 
 const Earphone = () => {
-  const [sound, setSound] = useState(true); // Default to true, meaning sound is ON
+  const [sound, setSound] = useState(false);
   const [hover, setHover] = useState(false);
+
   const audioRef = useRef(null);
 
-  // Automatically play the audio when the component mounts, with initial mute.
   useEffect(() => {
+    // Auto play muted audio
     if (audioRef.current) {
-      audioRef.current.muted = false; // Make sure the audio is unmuted
+      audioRef.current.muted = true; // Initially muted
       audioRef.current.play().catch((error) => {
         console.error("Autoplay failed:", error);
-        // Handle any errors like autoplay being blocked
       });
     }
-  }, []); // Empty dependency means this runs only once when the component is mounted
+  }, []); // Empty dependency array means this effect runs only once when the component is mounted
 
-  // Toggle the sound on and off
   useEffect(() => {
-    if (audioRef.current) {
-      if (sound) {
-        audioRef.current.play(); // Play when sound is ON
-      } else {
-        audioRef.current.pause(); // Pause when sound is OFF
-      }
+    if (sound === true) {
+      audioRef.current?.play();
+    } else {
+      audioRef.current.pause();
     }
   }, [sound]);
+
+  const toggleMute = () => {
+    if (audioRef.current) {
+      audioRef.current.muted = !audioRef.current.muted; // Toggle mute
+    }
+    setSound((prev) => !prev);
+  };
 
   return (
     <>
       <button
         className="app__earphone"
-        onClick={() => setSound((prev) => !prev)} // Toggle sound on/off
+        onClick={toggleMute}
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
       >
